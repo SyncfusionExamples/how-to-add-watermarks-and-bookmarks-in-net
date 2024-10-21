@@ -7,6 +7,7 @@ using Syncfusion.Drawing;
 namespace Watermark_Bookmarks {
     internal class Program {
         static void Main(string[] args) {
+             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
             //Text_Watermark_PDF();
             //Image_Watermark_PDF();
             //Remove_Watermark_PDF();
