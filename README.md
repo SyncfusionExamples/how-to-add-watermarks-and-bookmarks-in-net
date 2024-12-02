@@ -30,7 +30,7 @@ PdfGraphicsState state = graphics.Save();
 graphics.SetTransparency(0.25f);
 graphics.RotateTransform(-40);
 //Draw watermark text in the PDF document. 
-graphics.DrawString("Imported using Essential&reg; PDF", font, PdfPens.Red, PdfBrushes.Red, new PointF(-150, 450));
+graphics.DrawString("Imported using Essential PDF", font, PdfPens.Red, PdfBrushes.Red, new PointF(-150, 450));
 
 //Create file stream.
 using (FileStream outputFileStream = new FileStream("Output.pdf", FileMode.Create, FileAccess.ReadWrite)) {
